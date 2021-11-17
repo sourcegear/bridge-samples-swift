@@ -11,13 +11,13 @@ let package = Package(
             targets: ["hello"]),
     ],
     dependencies: [
-        .package(name: "sourcegear-bridge-aspnetcore", url: "https://github.com/sourcegear/sourcegear-bridge-aspnetcore", .exact("0.3.1")),
+        .package(name: "sourcegear-bridge-dotnet", url: "https://github.com/sourcegear/sourcegear-bridge-dotnet", .exact("0.3.1")),
     ],
     targets: [
         .target(
             name: "hello",
             dependencies: [
-                .product(name: "aspnetcore", package: "sourcegear-bridge-aspnetcore"),
+                .product(name: "dotnet", package: "sourcegear-bridge-dotnet"),
             ]
             ),
     ]
