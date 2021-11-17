@@ -4,6 +4,7 @@
 
 bin/
 obj/
+Package.resolved
 
 ## User settings
 xcuserdata/
