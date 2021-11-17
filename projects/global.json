@@ -1,6 +1,6 @@
 {
     "msbuild-sdks": {
-        "SourceGear.Bridge.Swift.Sdk": "0.3.0"
+        "SourceGear.Bridge.Swift.Sdk": "0.3.1"
     }
 }
 
