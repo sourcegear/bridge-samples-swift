@@ -7,11 +7,21 @@ Swift with SourceGear Bridge.
 
 These samples should work on Linux or Mac, as long as you have:
 
-    - Swift 5.5
-    - .NET 6.0
+- Swift 5.5
+- .NET 6.0
 
-If you're on a Mac, note that these projects do include a Package.swift
-file and are intended to be compatible with use of Xcode 13.
+(Things might work on Windows, but are not yet regularly tested there.)
+
+For example, clone this repo, and the following should work:
+
+```
+    cd projects/console/helloworld
+    dotnet run
+```
+
+If you're on a Mac, note that these projects do include a `Package.swift`
+file and are intended to be compatible with Xcode 13, including Quick Help
+support for the .NET APIs.
 
 For a bit more info on SourceGear Bridge, see the following blog entry:
 
