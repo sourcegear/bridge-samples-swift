@@ -11,7 +11,7 @@ let package = Package(
             targets: ["hello"]),
     ],
     dependencies: [
-        .package(name: "sourcegear-bridge-aspnetcore", url: "https://github.com/sourcegear/sourcegear-bridge-aspnetcore", .exact("0.3.1")),
+        .package(name: "sourcegear-bridge-aspnetcore", url: "https://github.com/sourcegear/sourcegear-bridge-aspnetcore", .exact("0.3.2")),
     ],
     targets: [
         .target(
