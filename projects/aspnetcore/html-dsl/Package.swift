@@ -11,7 +11,7 @@ let package = Package(
             targets: ["html"]),
     ],
     dependencies: [
-        .package(name: "sourcegear-bridge-aspnetcore", url: "https://github.com/sourcegear/sourcegear-bridge-aspnetcore", .exact("0.3.2")),
+        .package(name: "sourcegear-bridge-aspnetcore", url: "https://github.com/sourcegear/sourcegear-bridge-aspnetcore", .exact("0.3.3")),
         .package(url: "https://github.com/johnsundell/plot.git", from: "0.9.0"),
     ],
     targets: [

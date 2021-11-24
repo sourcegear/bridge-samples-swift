@@ -34,11 +34,11 @@ public func swift_main() throws -> Swift.Int32 {
 
     // convert each string to a JsonNode
     // use Swift map() on the .NET array
-    func to_jsonnode(x : System.String) throws -> JsonNode {
-        return try JsonNode.op_Implicit(value: x)!;
+    func to_jsonnode(x : System.String) -> JsonNode {
+        return JsonNode(value: x)!;
     }
 
-    let json_args = try args.map(to_jsonnode)
+    let json_args = args.map(to_jsonnode)
 
     // add to the JSON object
     try json.Add(propertyName: "arguments", value: JsonArray(items: System_Arr(array: json_args)));
