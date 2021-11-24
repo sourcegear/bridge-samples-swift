@@ -9,7 +9,8 @@ public func swift_main() throws -> Swift.Int32 {
     for _ in 1 ... (p - 1) {
         y = y * x;
     }
-    try System.Console.WriteLine(value: System.String(swiftString: "\(v) ^ \(p) is:"));
+    let s = System.String(swiftString: "\(v) ^ \(p) is:");
+    try System.Console.WriteLine(value: s);
     try System.Console.WriteLine(value: y.ToString());
     return 0;
 }
